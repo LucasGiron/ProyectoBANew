@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+</head>
+
+<body>
+    <header> 
+        <nav>
+         <ul>
+    
+            <li><a href="../index.html">home</a></li>
+            <li><a href="contacto.html">contacto</a></li>
+            <li><a href="galeria.html">galeria</a></li>
+            <li><a href="nosotros.html">nosotros</a></li>
+         </ul>
+        </nav>
+     </header>
+    <main>
+        <h1>contacto</h1>
+        <h2>Llena el siguiente formulario de contacto y pronto nos comunicaremos contigo</h2>
+        <form action="" method="">
+
+            <fieldset>
+                <legend>Datos Personales</legend>
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" name="Nombre" id="Nombre">
+                    <br>
+                    <label for="Apellido">Apellido:</label>
+                    <input type="text" name="Apellido" id="Apellido">
+                    <br>
+                    <label for="Edad">Edad:</label>
+                    <input type="number" name="Edad" id="Edad">
+                    <br>
+                    <label for="Telefono">Telefono:</label>
+                    <input type="number" name="Telefono" id="Telefono">
+                    <br>
+                    <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+                    <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+                    <br>
+                    <label for="email">email:</label>
+                    <input type="email" name="email" id="email" placeholder="correo@hotmail.com"> 
+                
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Preferencias de Temporada</legend>
+                <label for="Temporada">Verano</label>
+                <input type="radio" name="Temporada" id="Temporada" value="Verano">
+                <label for="Temporada">Invierno</label>
+                <input type="radio" name="Temporada" id="Temporada" value="Invierno">
+                <label for="Temporada">Otoño</label>
+                <input type="radio" name="Temporada" id="Temporada" value="Otoño">  
+                <label for="Temporada">Primavera</label>
+                <input type="radio" name="Temporada" id="Temporada" value="Primavera">
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Colores Favoritos</legend>
+                <label for="Colores">Azul</label>
+                <input type="checkbox" name="Colores" id="Colores" value="Azul" >
+                <label for="Colores">Rojo</label>
+                <input type="checkbox" name="Colores" id="Colores" value="Rojo" >
+                <label for="Colores">Amarillo</label>
+                <input type="checkbox" name="Colores" id="Colores" value="Amarillo" >
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Talles</legend>
+                <select name="talles" id="talles">
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Compartinos tus look favoritos</legend>
+                <input type="file" name="imagen_look" id="imagen_look">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend></legend>
+                <label for="Asunto">Asunto:</label>
+            <input type="Asunto" name="Asunto" id="Asunto">
+            <label for="contenido">contenido</label>
+            <textarea name="contenido" id="contenido" cols="30" rows="10"></textarea>
+
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar campos">
+        </form>
+
+    </main>
+    <footer>
+        <br>
+        <a href="mailto:luucas_el23@hotmail.com">Email de contacto</a>
+        <a href="https://www.mercadolibre.com.ar/"target="_blank">Mercado libre</a>
+      
+    </footer>
+    
+</body>
+</html>
+
